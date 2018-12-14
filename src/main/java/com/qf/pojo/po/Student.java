@@ -2,7 +2,7 @@ package com.qf.pojo.po;
 
 public class Student {
     private int id;
-    private String name;
+    private String className;
 
     public int getId() {
         return id;
@@ -12,11 +12,11 @@ public class Student {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getClassName() {
+        return className;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setClassName(String className) {
+        this.className = className;
     }
 }
